@@ -1,0 +1,292 @@
+.Portfolio {
+    position: relative;
+    width: 100%;
+    height: 900px;
+}
+
+.product-img-cover {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/bong.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.Portfolio-text {
+    position: absolute;
+    left: 13%;
+    top: 5%;
+    font-family: 'Kaushan Script', cursive;
+    width: 74%;
+    height: 135px;
+}
+
+.Portfolio-content {
+    position: absolute;
+    left: 13%;
+    top: 25%;
+    width: 74%;
+    height: 74%;
+}
+
+.Portfolio-item-1,
+.Portfolio-item-2 {
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    background-color: white;
+    padding: 0.5%;
+    cursor: pointer;
+    border: 3px solid #212529;
+    border-radius: 10px;
+}
+
+.Portfolio-item-1 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.info_product_1 {
+    width: 50%;
+    height: 40%;
+    border: 3px solid #212529;
+    background-color: white;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    padding: 15px;
+    font-family: 'Dosis', sans-serif;
+    border-radius: 10px;
+}
+
+.relative_1 {
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    top: 15%;
+    right: 50%;
+    overflow: hidden;
+}
+
+.info_product_2 {
+    width: 50%;
+    height: 40%;
+    border: 3px solid #212529;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    padding: 15px;
+    font-family: 'Dosis', sans-serif;
+    border-radius: 10px;
+}
+
+.relative_2 {
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    top: 65%;
+    right: 50%;
+    overflow: hidden;
+}
+
+.relative_1 .thanh_r_1,
+.relative_2 .thanh_r_1 {
+    position: absolute;
+    top: 2%;
+    left: 0%;
+    height: 16%;
+    width: 80%;
+    opacity: 0;
+    border-radius: 3px;
+    background-color: #212529;
+    animation: thanh_qua_phai 2s forwards linear infinite;
+}
+
+.relative_1 .thanh_r_2,
+.relative_2 .thanh_r_2 {
+    position: absolute;
+    top: 42%;
+    left: 0%;
+    height: 16%;
+    width: 80%;
+    opacity: 0;
+    border-radius: 3px;
+    background-color: #212529;
+    animation: thanh_qua_phai 2s forwards linear infinite;
+}
+
+.relative_1 .thanh_r_3,
+.relative_2 .thanh_r_3 {
+    position: absolute;
+    top: 80%;
+    left: 0%;
+    height: 16%;
+    width: 80%;
+    opacity: 0;
+    border-radius: 3px;
+    background-color: #212529;
+    animation: thanh_qua_phai 2s forwards linear infinite;
+}
+
+.relative_1 .thanh_r_4,
+.relative_2 .thanh_r_4 {
+    position: absolute;
+    top: 22%;
+    right: 0%;
+    height: 16%;
+    width: 80%;
+    opacity: 0;
+    border-radius: 3px;
+    background-color: #212529;
+    animation: thanh_qua_trai 2s forwards linear infinite;
+}
+
+.relative_1 .thanh_r_5,
+.relative_2 .thanh_r_5 {
+    position: absolute;
+    top: 62%;
+    right: 0%;
+    height: 16%;
+    width: 80%;
+    opacity: 0;
+    border-radius: 3px;
+    background-color: #212529;
+    animation: thanh_qua_trai 2s forwards linear infinite;
+}
+
+@-webkit-keyframes thanh_qua_trai {
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    50% {
+        opacity: 1;
+        transform: translateX(-100px);
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(-200px);
+    }
+}
+
+@-webkit-keyframes thanh_qua_phai {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    50% {
+        opacity: 1;
+        transform: translateX(100px);
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(200px);
+    }
+}
+
+.Portfolio-item-2 {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+}
+
+.Portfolio-item-3 {
+    position: absolute;
+    top: 70%;
+    left: 0%;
+}
+
+.Portfolio-item-4 {
+    position: absolute;
+    top: 32%;
+    left: 0%;
+}
+
+img.layer1 {
+    width: 100%;
+    height: 100%;
+}
+
+.gradient {
+    width: 100%;
+    height: 100%;
+    background-image: -webkit-linear-gradient(45deg, rgb(0, 110, 255) 10%, rgb(135, 255, 37) 100%);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    transition: 0.6s;
+    opacity: 0;
+}
+
+.hinhvuong {
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    z-index: 3;
+    left: 10%;
+    top: 10%;
+    background-color: #212529;
+    border: 1px solid white;
+    border-radius: 10px;
+    transition: 0.6s;
+    opacity: 0;
+    transform: scale(0);
+}
+
+.chuto {
+    opacity: 0;
+    font-size: 30px;
+    font-family: segoe ui light;
+    top: 35%;
+    left: 10%;
+    width: 80%;
+    position: absolute;
+    text-align: center;
+    z-index: 4;
+    transition: 0.4s;
+}
+
+.chunho {
+    font-size: 15px;
+    font-family: segoe ui light;
+    top: 70%;
+    left: 15%;
+    width: 70%;
+    position: absolute;
+    text-align: center;
+    color: white;
+    z-index: 5;
+    text-transform: uppercase;
+    transition: 0.6s;
+    opacity: 0;
+    transform: scale(0);
+}
+
+
+/*hiệu ứng*/
+
+.chuto.bienhinh {
+    opacity: 1;
+    top: 25%;
+    color: #ff9800;
+}
+
+.chunho.bienhinh {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.hinhvuong.bienhinh {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.gradient.bienhinh {
+    opacity: 0.4;
+}

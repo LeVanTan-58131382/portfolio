@@ -1,0 +1,717 @@
+.skill {
+    position: relative;
+    width: 100%;
+    height: 730px;
+    background-color: #212529;
+    animation: up 0.5s forwards;
+}
+
+.skill .img-cover {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/la.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.skill .text-skill {
+    position: absolute;
+    left: 13%;
+    top: 6%;
+    font-family: 'LeckerliOne', cursive;
+    width: 87%;
+    height: 135px;
+}
+
+.skill-icon {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+}
+
+.skill-doc {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 6px;
+    height: 100%;
+    background-color: white;
+}
+
+.skill-icon-content {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 98.7%;
+    height: 100%;
+}
+
+.skill-aicon {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 40%;
+    padding: 1%;
+}
+
+.skill-ticon {
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    width: 100%;
+    height: 60%;
+    padding: 1%;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+}
+
+.block-skill {
+    position: absolute;
+    left: 13%;
+    top: 30%;
+    width: 74%;
+    height: 70%;
+}
+
+.block-skill .photoshop {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 31%;
+    height: 80%;
+    background-color: darkturquoise;
+    border-bottom: 1.5px solid #03a9f4;
+    animation: zoom 0.5s forwards;
+}
+
+.photoshop-text,
+.adobeae-text,
+.maya3d-text {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 17px;
+    width: 100%;
+    height: 20%;
+    background-color: #ff9800;
+}
+
+.photoshop-content,
+.adobeae-content,
+.maya3d-content {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+}
+
+.photoshop-content img {
+    width: 100%;
+    height: 100%;
+}
+
+.adobeae-content .php {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 50%;
+}
+
+.adobeae-content .mysql {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    width: 100%;
+    height: 50%;
+}
+
+.adobeae-content img {
+    width: 100%;
+    height: 100%;
+}
+
+.maya3d-content img {
+    width: 100%;
+    height: 100%;
+}
+
+.adobeae {
+    position: absolute;
+    left: 34.5%;
+    top: 0px;
+    width: 31%;
+    height: 80%;
+    border-bottom: 2px solid #03a9f4;
+    animation: zoom 0.5s forwards;
+}
+
+.maya3d {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 31%;
+    height: 80%;
+    background-color: #03a9f4;
+    border-bottom: 1.5px solid #03a9f4;
+    animation: zoom 0.5s forwards;
+    overflow: hidden;
+}
+
+.maya3d-content::before {
+    position: absolute;
+    top: 0;
+    left: -75%;
+    z-index: 2;
+    display: block;
+    content: '';
+    width: 50%;
+    height: 100%;
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .3) 100%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .3) 100%);
+    -webkit-transform: skewX(-17deg);
+    -moz-transform: skewX(-17deg);
+    -o-transform: skewX(-17deg);
+    -ms-transform: skewX(-17deg);
+    transform: skewX(-17deg);
+}
+
+.maya3d-content:hover::before {
+    -webkit-animation: shine .95s;
+    -moz-animation: shine .95s;
+    animation: shine .95s;
+}
+
+.photoshop-content .lego-top {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 51%;
+}
+
+.photoshop-content .lego-top .lego-top-cross {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 60%;
+    background-color: #212529;
+}
+
+.photoshop-content .lego-top .lego-top-left {
+    position: absolute;
+    top: 60%;
+    left: 0%;
+    width: 25%;
+    height: 40%;
+    background-color: #212529;
+}
+
+.photoshop-content .lego-top .lego-top-right {
+    position: absolute;
+    top: 60%;
+    right: 0%;
+    width: 25%;
+    height: 40%;
+    background-color: #212529;
+}
+
+.photoshop-content .lego-bottom {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50%;
+}
+
+.photoshop-content .lego-center {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    z-index: 5;
+    width: 50%;
+    height: 40%;
+    background-color: #03a9f4;
+    padding-top: 25px;
+    transform-origin: 0% 0%;
+    /* tâm quay sẽ là góc trái: left: 0%, top: 0%*/
+}
+
+.photoshop-content .lego-center p {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    color: #212529;
+}
+
+.photoshop-content .lego-bottom .lego-bottom-cross {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 60%;
+    background-color: #212529;
+}
+
+.photoshop-content .lego-bottom .lego-bottom-left {
+    position: absolute;
+    bottom: 60%;
+    left: 0%;
+    width: 25%;
+    height: 40%;
+    background-color: #212529;
+}
+
+.photoshop-content .lego-bottom .lego-bottom-right {
+    position: absolute;
+    bottom: 60%;
+    right: 0%;
+    width: 25%;
+    height: 40%;
+    background-color: #212529;
+}
+
+.skill .photoshop:hover .photoshop-content .lego-top {
+    animation: down-disappear 1.3s forwards;
+    animation-delay: 0.7s;
+}
+
+.skill .photoshop:hover .photoshop-content .lego-bottom {
+    animation: up-disappear 1.3s forwards;
+    animation-delay: 0.7s;
+}
+
+.skill .photoshop:hover .photoshop-content .lego-center {
+    animation: fallToLeft-disappear 1s forwards;
+}
+
+.adobeae-content .a,
+.b,
+.c,
+.d,
+.e,
+.f,
+.g,
+.h,
+.i,
+.j,
+.k,
+.l,
+.m,
+.n,
+.o,
+.p {
+    position: absolute;
+    width: 25%;
+    height: 25%;
+    background-color: #212529;
+}
+
+.adobeae-content .j {
+    width: 35%;
+    background-color: #03a9f4;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.adobeae-content .k {
+    width: 55%;
+    background-color: #03a9f4;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.adobeae-content .j,
+.k p {
+    font-size: 50px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    color: #212529;
+}
+
+.adobeae-content .a {
+    top: 75%;
+    left: 0%;
+}
+
+.adobeae:hover .adobeae-content .a {
+    animation: up-disappear 1s forwards;
+    animation-delay: 0.1s;
+}
+
+.adobeae-content .b {
+    top: 75%;
+    left: 25%;
+}
+
+.adobeae:hover .adobeae-content .b {
+    animation: up-disappear 1s forwards;
+    animation-delay: 0.3s;
+}
+
+.adobeae-content .c {
+    top: 75%;
+    left: 50%;
+}
+
+.adobeae:hover .adobeae-content .c {
+    animation: up-disappear 1s forwards;
+    animation-delay: 0.2s;
+}
+
+.adobeae-content .d {
+    top: 75%;
+    left: 75%;
+}
+
+.adobeae:hover .adobeae-content .d {
+    animation: up-disappear 1s forwards;
+    animation-delay: 0.3s;
+}
+
+.adobeae-content .e {
+    top: 50%;
+    left: 0%;
+}
+
+.adobeae:hover .adobeae-content .e {
+    animation: up-disappear 1s forwards;
+    animation-delay: 0.6s;
+}
+
+.adobeae-content .f {
+    top: 50%;
+    left: 25%;
+}
+
+.adobeae:hover .adobeae-content .f {
+    animation: up-disappear 1s forwards;
+    animation-delay: 0.4s;
+}
+
+.adobeae-content .g {
+    top: 50%;
+    left: 50%;
+}
+
+.adobeae:hover .adobeae-content .g {
+    animation: up-disappear 1s forwards;
+    animation-delay: 0.6s;
+}
+
+.adobeae-content .h {
+    top: 50%;
+    left: 75%;
+}
+
+.adobeae:hover .adobeae-content .h {
+    animation: up-disappear 1s forwards;
+    animation-delay: 0.5s;
+}
+
+.adobeae-content .i {
+    width: 5%;
+    top: 25%;
+    left: 0%;
+}
+
+.adobeae:hover .adobeae-content .i {
+    animation: up-disappear 1s forwards;
+    animation-delay: 0.8s;
+}
+
+.adobeae-content .j {
+    top: 25%;
+    left: 5%;
+}
+
+.adobeae:hover .adobeae-content .j {
+    animation: up-disappear 1s forwards;
+    animation-delay: 0.7s;
+}
+
+.adobeae-content .k {
+    top: 25%;
+    left: 40%;
+}
+
+.adobeae:hover .adobeae-content .k {
+    animation: up-disappear 1s forwards;
+    animation-delay: 0.8s;
+}
+
+.adobeae-content .l {
+    width: 5%;
+    top: 25%;
+    left: 95%;
+}
+
+.adobeae:hover .adobeae-content .l {
+    animation: up-disappear 1s forwards;
+    animation-delay: 0.9s;
+}
+
+.adobeae-content .m {
+    top: 0%;
+    left: 0%;
+}
+
+.adobeae:hover .adobeae-content .m {
+    animation: up-disappear 1s forwards;
+    animation-delay: 0.9s;
+}
+
+.adobeae-content .n {
+    top: 0%;
+    left: 25%;
+}
+
+.adobeae:hover .adobeae-content .n {
+    animation: up-disappear 1s forwards;
+    animation-delay: 1s;
+}
+
+.adobeae-content .o {
+    top: 0%;
+    left: 50%;
+}
+
+.adobeae:hover .adobeae-content .o {
+    animation: up-disappear 1s forwards;
+    animation-delay: 1.1s;
+}
+
+.adobeae-content .p {
+    top: 0%;
+    left: 75%;
+}
+
+.adobeae:hover .adobeae-content .p {
+    animation: up-disappear 1s forwards;
+    animation-delay: 1s;
+}
+
+.maya3d-content .d p,
+.maya3d-content .g p,
+.maya3d-content .j p {
+    font-size: 40px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    color: #212529;
+}
+
+.maya3d-content .a {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 50%;
+    height: 20%;
+    background-color: #212529;
+}
+
+.maya3d-content .b {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 50%;
+    height: 20%;
+    background-color: #212529;
+}
+
+.maya3d-content .c {
+    position: absolute;
+    top: 60%;
+    left: 0%;
+    width: 15%;
+    height: 20%;
+    background-color: #212529;
+}
+
+.maya3d-content .d {
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    width: 70%;
+    height: 20%;
+    background-color: #03a9f4;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.maya3d-content .e {
+    position: absolute;
+    top: 60%;
+    right: 0%;
+    width: 15%;
+    height: 20%;
+    background-color: #212529;
+}
+
+.maya3d-content .f {
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    width: 30%;
+    height: 20%;
+    background-color: #212529;
+}
+
+.maya3d-content .g {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    width: 40%;
+    height: 20%;
+    background-color: #03a9f4;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.maya3d-content .h {
+    position: absolute;
+    top: 40%;
+    right: 0%;
+    width: 30%;
+    height: 20%;
+    background-color: #212529;
+}
+
+.maya3d-content .i {
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    width: 40%;
+    height: 20%;
+    background-color: #212529;
+}
+
+.maya3d-content .j {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    width: 20%;
+    height: 20%;
+    background-color: #03a9f4;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.maya3d-content .k {
+    position: absolute;
+    top: 20%;
+    right: 0%;
+    width: 40%;
+    height: 20%;
+    background-color: #212529;
+}
+
+.maya3d-content .l {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    width: 50%;
+    height: 20%;
+    background-color: #212529;
+}
+
+.maya3d-content .m {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    width: 50%;
+    height: 20%;
+    background-color: #212529;
+}
+
+.anh-maya {
+    opacity: 0;
+}
+
+.maya3d:hover .anh-maya {
+    animation: zoom 1s forwards;
+    animation-delay: 2s;
+}
+
+.maya3d:hover .maya3d-content .a {
+    animation: up-disappear 1s forwards;
+    animation-delay: 1.1s;
+}
+
+.maya3d:hover .maya3d-content .b {
+    animation: up-disappear 1s forwards;
+    animation-delay: 1.2s;
+}
+
+.maya3d:hover .maya3d-content .f {
+    animation: up-disappear 1s forwards;
+    animation-delay: 1.6s;
+}
+
+.maya3d:hover .maya3d-content .g {
+    animation: up-disappear 1s forwards;
+    animation-delay: 1.5s;
+}
+
+.maya3d:hover .maya3d-content .h {
+    animation: up-disappear 1s forwards;
+    animation-delay: 1.6s;
+}
+
+.maya3d:hover .maya3d-content .i {
+    animation: up-disappear 1s forwards;
+    animation-delay: 1.3s;
+}
+
+.maya3d:hover .maya3d-content .j {
+    animation: up-disappear 1s forwards;
+    animation-delay: 1.5s;
+}
+
+.maya3d:hover .maya3d-content .k {
+    animation: up-disappear 1s forwards;
+    animation-delay: 1.4s;
+}
+
+.maya3d:hover .maya3d-content .c {
+    animation: up-disappear 1s forwards;
+    animation-delay: 1.9s;
+}
+
+.maya3d:hover .maya3d-content .d {
+    animation: up-disappear 1s forwards;
+    animation-delay: 1.8s;
+}
+
+.maya3d:hover .maya3d-content .e {
+    animation: up-disappear 1s forwards;
+    animation-delay: 2s;
+}
+
+.maya3d:hover .maya3d-content .l {
+    animation: up-disappear 1s forwards;
+    animation-delay: 2.1s;
+}
+
+.maya3d:hover .maya3d-content .m {
+    animation: up-disappear 1s forwards;
+    animation-delay: 2.2s;
+}
+
+.maya3d:hover .maya3d-content .img {
+    animation: zoom-create 1.1s forwards;
+    animation-delay: 2.4s;
+}

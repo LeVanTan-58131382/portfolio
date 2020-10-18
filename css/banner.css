@@ -1,0 +1,963 @@
+body {
+    overflow-x: hidden;
+}
+
+@-webkit-keyframes nhap_nhay {
+    0% {
+        opacity: 0;
+        transition: 0.5s;
+    }
+    50% {
+        opacity: 1;
+        transition: 0.5s;
+        background-color: rgba(255, 255, 0, 0.596);
+    }
+    100% {
+        opacity: 0;
+        transition: 0.5s;
+    }
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 720px;
+    overflow: hidden;
+    perspective: 100px;
+    /* animation: rubberBand 1s forwards; */
+    background-color: blueviolet;
+    overflow: hidden;
+}
+
+.banner .opinion {
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    width: 40%;
+    height: 10%;
+    z-index: 20;
+    color: white;
+    font-family: 'LeckerliOne', cursive;
+    font-size: 20px;
+    text-align: center;
+    opacity: 0;
+    animation: jumpToRight-create 2s forwards linear;
+    animation-delay: 2.6s;
+}
+
+.banner .khoinhatruoc {
+    position: absolute;
+    width: 80%;
+    height: 50%;
+    left: 10%;
+    bottom: 10%;
+    /* background-color: aqua; */
+    z-index: 10;
+    opacity: 0;
+    animation: up 1s forwards linear;
+    animation-delay: 0.6s;
+}
+
+.khoinhatruoc .nha_1 {
+    position: absolute;
+    left: 1%;
+    bottom: 0%;
+    width: 10%;
+    height: 40%;
+    background-color: #37434e;
+}
+
+.khoinhatruoc .nha_1 .o_1,
+.o_2,
+.o_3,
+.o_4,
+.o_5,
+.o_6,
+.o_7,
+.o_8,
+.o_9,
+.o_10,
+.o_11,
+.o_12,
+.o_13,
+.o_14,
+.o_15,
+.o_16,
+.o_17,
+.o_18,
+.o_19,
+.o_20 {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    width: 10%;
+    height: 10%;
+    background-color: rgb(194, 194, 194);
+}
+
+.khoinhatruoc .nha_3 .o_1,
+.o_2,
+.o_3,
+.o_4,
+.o_5,
+.o_6,
+.o_7,
+.o_8,
+.o_9,
+.o_10,
+.o_11,
+.o_12,
+.o_13,
+.o_14,
+.o_15,
+.o_16,
+.o_17,
+.o_18,
+.o_19,
+.o_20 {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    width: 10%;
+    height: 10%;
+    background-color: rgb(194, 194, 194);
+}
+
+.khoinhatruoc .nha_5 .o_1,
+.o_2,
+.o_3,
+.o_4,
+.o_5,
+.o_6,
+.o_7,
+.o_8,
+.o_9,
+.o_10,
+.o_11,
+.o_12,
+.o_13,
+.o_14,
+.o_15,
+.o_16,
+.o_17,
+.o_18,
+.o_19,
+.o_20 {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    width: 10%;
+    height: 10%;
+    background-color: rgb(194, 194, 194);
+}
+
+.khoinhatruoc .nha_7 .o_1,
+.o_2,
+.o_3,
+.o_4,
+.o_5,
+.o_6,
+.o_7,
+.o_8,
+.o_9,
+.o_10,
+.o_11,
+.o_12,
+.o_13,
+.o_14,
+.o_15,
+.o_16,
+.o_17,
+.o_18,
+.o_19,
+.o_20 {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    width: 10%;
+    height: 10%;
+    background-color: rgb(194, 194, 194);
+}
+
+.khoinhatruoc .nha_1 .o_2,
+.khoinhatruoc .nha_3 .o_2,
+.khoinhatruoc .nha_5 .o_2,
+.khoinhatruoc .nha_7 .o_2 {
+    left: 25%;
+    top: 5%;
+    animation: nhap_nhay 5s linear infinite;
+    animation-delay: 3s;
+}
+
+.khoinhatruoc .nha_1 .o_3,
+.khoinhatruoc .nha_3 .o_3,
+.khoinhatruoc .nha_5 .o_3,
+.khoinhatruoc .nha_7 .o_3 {
+    left: 45%;
+    top: 5%;
+}
+
+.khoinhatruoc .nha_1 .o_4,
+.khoinhatruoc .nha_3 .o_4,
+.khoinhatruoc .nha_5 .o_4,
+.khoinhatruoc .nha_7 .o_4 {
+    left: 65%;
+    top: 5%;
+}
+
+.khoinhatruoc .nha_1 .o_5,
+.khoinhatruoc .nha_3 .o_5,
+.khoinhatruoc .nha_5 .o_5,
+.khoinhatruoc .nha_7 .o_5 {
+    left: 85%;
+    top: 5%;
+}
+
+.khoinhatruoc .nha_1 .o_6,
+.khoinhatruoc .nha_3 .o_6,
+.khoinhatruoc .nha_5 .o_6,
+.khoinhatruoc .nha_7 .o_6 {
+    left: 5%;
+    top: 22%;
+}
+
+.khoinhatruoc .nha_1 .o_7,
+.khoinhatruoc .nha_3 .o_7,
+.khoinhatruoc .nha_5 .o_7,
+.khoinhatruoc .nha_7 .o_7 {
+    left: 25%;
+    top: 22%;
+}
+
+.khoinhatruoc .nha_1 .o_8,
+.khoinhatruoc .nha_3 .o_8,
+.khoinhatruoc .nha_5 .o_8,
+.khoinhatruoc .nha_7 .o_8 {
+    left: 45%;
+    top: 22%;
+}
+
+.khoinhatruoc .nha_1 .o_9,
+.khoinhatruoc .nha_3 .o_9,
+.khoinhatruoc .nha_5 .o_9,
+.khoinhatruoc .nha_7 .o_9 {
+    left: 65%;
+    top: 22%;
+}
+
+.khoinhatruoc .nha_1 .o_10,
+.khoinhatruoc .nha_3 .o_10,
+.khoinhatruoc .nha_5 .o_10,
+.khoinhatruoc .nha_7 .o_10 {
+    left: 85%;
+    top: 22%;
+    animation: nhap_nhay 5s linear infinite;
+    animation-delay: 5s;
+}
+
+.khoinhatruoc .nha_1 .o_11,
+.khoinhatruoc .nha_3 .o_11,
+.khoinhatruoc .nha_5 .o_11,
+.khoinhatruoc .nha_7 .o_11 {
+    left: 5%;
+    top: 42%;
+}
+
+.khoinhatruoc .nha_1 .o_12,
+.khoinhatruoc .nha_3 .o_12,
+.khoinhatruoc .nha_5 .o_12,
+.khoinhatruoc .nha_7 .o_12 {
+    left: 25%;
+    top: 42%;
+}
+
+.khoinhatruoc .nha_1 .o_13,
+.khoinhatruoc .nha_3 .o_13,
+.khoinhatruoc .nha_5 .o_13,
+.khoinhatruoc .nha_7 .o_13 {
+    left: 45%;
+    top: 42%;
+}
+
+.khoinhatruoc .nha_1 .o_14,
+.khoinhatruoc .nha_3 .o_14,
+.khoinhatruoc .nha_5 .o_14,
+.khoinhatruoc .nha_7 .o_14 {
+    left: 65%;
+    top: 42%;
+}
+
+.khoinhatruoc .nha_1 .o_15,
+.khoinhatruoc .nha_3 .o_15,
+.khoinhatruoc .nha_5 .o_15,
+.khoinhatruoc .nha_7 .o_15 {
+    left: 85%;
+    top: 42%;
+}
+
+.khoinhatruoc .nha_1 .o_16,
+.khoinhatruoc .nha_3 .o_16,
+.khoinhatruoc .nha_5 .o_16,
+.khoinhatruoc .nha_7 .o_16 {
+    left: 5%;
+    top: 62%;
+}
+
+.khoinhatruoc .nha_1 .o_17,
+.khoinhatruoc .nha_3 .o_17,
+.khoinhatruoc .nha_5 .o_17,
+.khoinhatruoc .nha_7 .o_17 {
+    left: 25%;
+    top: 62%;
+}
+
+.khoinhatruoc .nha_1 .o_18,
+.khoinhatruoc .nha_3 .o_18,
+.khoinhatruoc .nha_5 .o_18,
+.khoinhatruoc .nha_7 .o_18 {
+    left: 45%;
+    top: 62%;
+}
+
+.khoinhatruoc .nha_1 .o_19,
+.khoinhatruoc .nha_3 .o_19,
+.khoinhatruoc .nha_5 .o_19,
+.khoinhatruoc .nha_7 .o_19 {
+    left: 65%;
+    top: 62%;
+}
+
+.khoinhatruoc .nha_1 .o_20,
+.khoinhatruoc .nha_3 .o_20,
+.khoinhatruoc .nha_5 .o_20,
+.khoinhatruoc .nha_7 .o_20 {
+    left: 85%;
+    top: 62%;
+}
+
+.khoinhatruoc .nha_2 {
+    position: absolute;
+    left: 12%;
+    bottom: 0%;
+    width: 15%;
+    height: 30%;
+    background-color: #37434e;
+}
+
+.khoinhatruoc .nha_2 .thanh_ngang_1,
+.thanh_ngang_2,
+.thanh_ngang_3,
+.thanh_ngang_4,
+.thanh_ngang_5,
+.thanh_ngang_6 {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    width: 90%;
+    height: 5%;
+    background-color: rgb(194, 194, 194);
+}
+
+.khoinhatruoc .nha_8 .thanh_ngang_1,
+.thanh_ngang_2,
+.thanh_ngang_3,
+.thanh_ngang_4,
+.thanh_ngang_5,
+.thanh_ngang_6 {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    width: 90%;
+    height: 5%;
+    background-color: rgb(194, 194, 194);
+}
+
+.khoinhatruoc .nha_2 .thanh_ngang_2,
+.khoinhatruoc .nha_8 .thanh_ngang_2 {
+    top: 15%;
+}
+
+.khoinhatruoc .nha_2 .thanh_ngang_3,
+.khoinhatruoc .nha_8 .thanh_ngang_3 {
+    top: 25%;
+}
+
+.khoinhatruoc .nha_2 .thanh_ngang_4,
+.khoinhatruoc .nha_8 .thanh_ngang_4 {
+    top: 35%;
+}
+
+.khoinhatruoc .nha_2 .thanh_ngang_5,
+.khoinhatruoc .nha_8 .thanh_ngang_5 {
+    top: 45%;
+}
+
+.khoinhatruoc .nha_2 .thanh_ngang_6,
+.khoinhatruoc .nha_8 .thanh_ngang_6 {
+    top: 55%;
+}
+
+.khoinhatruoc .nha_3 {
+    position: absolute;
+    left: 28%;
+    bottom: 0%;
+    width: 10%;
+    height: 50%;
+    background-color: #37434e;
+}
+
+.khoinhatruoc .nha_4 {
+    position: absolute;
+    left: 39%;
+    bottom: 0%;
+    width: 10%;
+    height: 60%;
+    background-color: #37434e;
+}
+
+.khoinhatruoc .nha_4 .thanh_doc_1,
+.thanh_doc_2,
+.thanh_doc_3,
+.thanh_doc_4,
+.thanh_doc_5,
+.thanh_doc_6,
+.thanh_doc_7,
+.thanh_doc_8,
+.thanh_doc_9 {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    width: 5%;
+    height: 95%;
+    background-color: rgb(194, 194, 194);
+}
+
+.khoinhatruoc .nha_6 .thanh_doc_1,
+.thanh_doc_2,
+.thanh_doc_3,
+.thanh_doc_4,
+.thanh_doc_5,
+.thanh_doc_6,
+.thanh_doc_7,
+.thanh_doc_8,
+.thanh_doc_9 {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    width: 5%;
+    height: 95%;
+    background-color: rgb(194, 194, 194);
+}
+
+.khoinhatruoc .nha_9 .thanh_doc_1,
+.thanh_doc_2,
+.thanh_doc_3,
+.thanh_doc_4,
+.thanh_doc_5,
+.thanh_doc_6,
+.thanh_doc_7,
+.thanh_doc_8,
+.thanh_doc_9 {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    width: 5%;
+    height: 95%;
+    background-color: rgb(194, 194, 194);
+}
+
+.khoinhatruoc .nha_4 .thanh_doc_2,
+.khoinhatruoc .nha_6 .thanh_doc_2,
+.khoinhatruoc .nha_9 .thanh_doc_2 {
+    left: 15%;
+}
+
+.khoinhatruoc .nha_4 .thanh_doc_3,
+.khoinhatruoc .nha_6 .thanh_doc_3,
+.khoinhatruoc .nha_9 .thanh_doc_3 {
+    left: 25%;
+}
+
+.khoinhatruoc .nha_4 .thanh_doc_4,
+.khoinhatruoc .nha_6 .thanh_doc_4,
+.khoinhatruoc .nha_9 .thanh_doc_4 {
+    left: 35%;
+}
+
+.khoinhatruoc .nha_4 .thanh_doc_5,
+.khoinhatruoc .nha_6 .thanh_doc_5,
+.khoinhatruoc .nha_9 .thanh_doc_5 {
+    left: 45%;
+}
+
+.khoinhatruoc .nha_4 .thanh_doc_6,
+.khoinhatruoc .nha_6 .thanh_doc_6,
+.khoinhatruoc .nha_9 .thanh_doc_6 {
+    left: 55%;
+}
+
+.khoinhatruoc .nha_4 .thanh_doc_7,
+.khoinhatruoc .nha_6 .thanh_doc_7,
+.khoinhatruoc .nha_9 .thanh_doc_7 {
+    left: 65%;
+}
+
+.khoinhatruoc .nha_4 .thanh_doc_8,
+.khoinhatruoc .nha_6 .thanh_doc_8,
+.khoinhatruoc .nha_9 .thanh_doc_8 {
+    left: 75%;
+}
+
+.khoinhatruoc .nha_4 .thanh_doc_9,
+.khoinhatruoc .nha_6 .thanh_doc_9,
+.khoinhatruoc .nha_9 .thanh_doc_9 {
+    left: 85%;
+}
+
+.khoinhatruoc .nha_5 {
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+    width: 10%;
+    height: 45%;
+    background-color: #37434e;
+}
+
+.khoinhatruoc .nha_6 {
+    position: absolute;
+    left: 61%;
+    bottom: 0%;
+    width: 10%;
+    height: 50%;
+    background-color: #37434e;
+}
+
+.khoinhatruoc .nha_7 {
+    position: absolute;
+    left: 72%;
+    bottom: 0%;
+    width: 10%;
+    height: 40%;
+    background-color: #37434e;
+}
+
+.khoinhatruoc .nha_8 {
+    position: absolute;
+    left: 84%;
+    bottom: 0%;
+    width: 8%;
+    height: 30%;
+    background-color: #37434e;
+}
+
+.khoinhatruoc .nha_9 {
+    position: absolute;
+    left: 90%;
+    bottom: 0%;
+    width: 6%;
+    height: 55%;
+    background-color: #37434e;
+}
+
+.khoinhatruoc .nha_10 {
+    position: absolute;
+    left: 95%;
+    bottom: 0%;
+    width: 2%;
+    height: 35%;
+    background-color: #37434e;
+}
+
+.khoinhasau {
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+    width: 80%;
+    height: 55%;
+    background-color: blueviolet;
+    z-index: 8;
+    opacity: 0;
+    animation: up 1s forwards linear;
+    animation-delay: 1.6s;
+}
+
+.khoinhasau .nha_1,
+.nha_2,
+.nha_3,
+.nha_4,
+.nha_6,
+.nha_7,
+.nha_8,
+.nha_9,
+.nha_10 {
+    position: absolute;
+    left: 2%;
+    bottom: 0%;
+    width: 10%;
+    height: 50%;
+    background-color: #5f8bb6;
+}
+
+.khoinhasau .nha_2 {
+    position: absolute;
+    left: 13%;
+    width: 10%;
+    height: 60%;
+    background-color: #5f8bb6;
+}
+
+.khoinhasau .nha_3 {
+    position: absolute;
+    left: 24%;
+    width: 10%;
+    height: 50%;
+    background-color: #5f8bb6;
+}
+
+.khoinhasau .nha_4 {
+    position: absolute;
+    left: 35%;
+    width: 8%;
+    height: 65%;
+    background-color: #5f8bb6;
+}
+
+.khoinhasau .nha_4 .cot_tre_1 {
+    position: absolute;
+    bottom: 0%;
+    left: 15%;
+    width: 20%;
+    height: 140%;
+    background-color: #5f8bb6;
+}
+
+.khoinhasau .nha_4 .cot_tre_2 {
+    position: absolute;
+    bottom: 0%;
+    left: 40%;
+    width: 40%;
+    height: 160%;
+    background-color: #5f8bb6;
+}
+
+.khoinhasau .nha_4 .cot_tre_3 {
+    position: absolute;
+    bottom: 0%;
+    right: 38%;
+    width: 10%;
+    height: 205%;
+    background-color: #5f8bb6;
+}
+
+.khoinhasau .nha_4 .cot_tre_4 {
+    position: absolute;
+    bottom: 0%;
+    left: 35%;
+    width: 20%;
+    height: 180%;
+    background-color: #5f8bb6;
+}
+
+.khoinhasau .nha_6 {
+    position: absolute;
+    left: 62%;
+    width: 8%;
+    height: 90%;
+    background-color: #5f8bb6;
+    border-radius: 1000px 200px 0px 0px;
+}
+
+.khoinhasau .nha_6 .san {
+    position: absolute;
+    top: 15%;
+    right: 20%;
+    width: 105%;
+    height: 10%;
+    background: #5f8bb6;
+    border-radius: 70%;
+}
+
+.khoinhasau .nha_7 {
+    position: absolute;
+    left: 73%;
+    width: 10%;
+    height: 60%;
+    background-color: #5f8bb6;
+}
+
+.khoinhasau .nha_8 {
+    position: absolute;
+    left: 84%;
+    width: 8%;
+    height: 80%;
+    background-color: #5f8bb6;
+}
+
+.khoinhasau .nha_9 {
+    position: absolute;
+    left: 93%;
+    width: 6%;
+    height: 65%;
+    background-color: #5f8bb6;
+}
+
+.khoinhasau .nha_10 {
+    position: absolute;
+    left: 21%;
+    bottom: 60%;
+    width: 2%;
+    height: 5%;
+    background-color: #5f8bb6;
+}
+
+.banner .leduong {
+    position: absolute;
+    bottom: 8%;
+    width: 100%;
+    height: 2%;
+    background-color: rgb(14, 13, 102);
+    z-index: 13;
+    opacity: 0;
+    animation: jumpToLeft-create 0.6s forwards linear
+}
+
+.banner .duong {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 8%;
+    background-color: rgb(54, 54, 68);
+    z-index: 13;
+    opacity: 0;
+    animation: jumpToLeft-create 0.6s forwards linear
+}
+
+.banner .duong .vachke_1,
+.vachke_2,
+.vachke_3,
+.vachke_4,
+.vachke_5,
+.vachke_6,
+.vachke_7,
+.vachke_8,
+.vachke_9,
+.vachke_10 {
+    position: absolute;
+    bottom: 50%;
+    width: 4%;
+    height: 1%;
+    background-color: rgb(255, 255, 255);
+}
+
+.banner .duong .vachke_2 {
+    left: 10%;
+}
+
+.banner .duong .vachke_3 {
+    left: 20%;
+}
+
+.banner .duong .vachke_4 {
+    left: 30%;
+}
+
+.banner .duong .vachke_5 {
+    left: 40%;
+}
+
+.banner .duong .vachke_6 {
+    left: 50%;
+}
+
+.banner .duong .vachke_7 {
+    left: 60%;
+}
+
+.banner .duong .vachke_8 {
+    left: 70%;
+}
+
+.banner .duong .vachke_9 {
+    left: 80%;
+}
+
+.banner .duong .vachke_10 {
+    left: 90%;
+}
+
+.imgresponse {
+    position: absolute;
+    visibility: hidden;
+    width: 100%;
+    height: 720px;
+    overflow: hidden;
+    animation: rubberBand 1s forwards;
+}
+
+.banner .dammay {
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    top: 0%;
+    left: 0%;
+}
+
+.banner .dammay .may_1 {
+    position: absolute;
+    left: 10%;
+    top: 26%;
+    width: 50%;
+    height: 70%;
+    opacity: 0.5;
+    transition: 1s;
+    animation: bongbenh 15s forwards infinite;
+    transition-timing-function: cubic-bezier(.17, .67, .72, .32);
+    animation-delay: 5s;
+}
+
+.banner .dammay .may_2 {
+    position: absolute;
+    left: 40%;
+    top: 36%;
+    width: 50%;
+    height: 70%;
+    z-index: 15;
+    opacity: 0.5;
+    transition: 1s;
+    animation: bongbenh 15s forwards infinite;
+    transition-timing-function: cubic-bezier(.17, .67, .72, .32);
+    animation-delay: 4s;
+}
+
+.banner .dammay .may_3 {
+    position: absolute;
+    left: 70%;
+    top: 26%;
+    width: 60%;
+    height: 70%;
+    opacity: 0.5;
+    transition: 1s;
+    animation: bongbenh 15s forwards infinite;
+    transition-timing-function: cubic-bezier(.17, .67, .72, .32);
+    animation-delay: 3s;
+}
+
+.banner .dammay .may_1 .dam_1_1,
+.dam_1_2,
+.dam_1_3 {
+    position: absolute;
+    left: 10%;
+    top: 26%;
+    width: 10%;
+    height: 8%;
+    background-color: aliceblue;
+    border-radius: 70%;
+}
+
+.banner .dammay .may_2 .dam_2_1,
+.dam_2_2,
+.dam_2_3 {
+    position: absolute;
+    left: 0%;
+    top: 38%;
+    width: 10%;
+    height: 8%;
+    background-color: aliceblue;
+    border-radius: 70%;
+    z-index: 12;
+}
+
+.banner .dammay .may_3 .dam_3_1,
+.dam_3_2,
+.dam_3_3 {
+    position: absolute;
+    left: 0%;
+    top: 26%;
+    width: 10%;
+    height: 8%;
+    background-color: aliceblue;
+    border-radius: 70%;
+}
+
+.may_1 .dam_1_2,
+.may_2 .dam_2_2,
+.may_3 .dam_3_2 {
+    left: 18%;
+    top: 30%;
+    width: 5%;
+    height: 5%;
+}
+
+.may_1 .dam_1_3,
+.may_2 .dam_2_3,
+.may_3 .dam_3_3 {
+    left: 5%;
+    top: 30%;
+    width: 15%;
+    height: 10%;
+}
+
+.space-think {
+    position: relative;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 90px;
+    padding: 10px;
+    transition: 0.5s;
+    overflow: hidden;
+    background-color: #212529;
+}
+
+.space-think-header,
+.space-think-footer {
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    height: 10px;
+    left: 0%;
+    background-color: #212529;
+}
+
+.space-think-header {
+    top: 0%;
+}
+
+.space-think-footer {
+    bottom: 0%;
+}
+
+.space-think-content {
+    position: absolute;
+    z-index: 2;
+    top: 0%;
+    left: 20%;
+    width: 60%;
+    background-color: #212529;
+    animation: dichuyentutu 14s linear forwards;
+    animation-iteration-count: infinite;
+    opacity: 0;
+}
+
+.space-think-content.spa {
+    animation-delay: 1s;
+}
+
+.space-think-content.sps {
+    animation-delay: 3s;
+}
+
+.space-think-content.spp {
+    animation-delay: 6s;
+}
+
+.space-think-content.spc {
+    animation-delay: 3s;
+}
+
+.space-think-content p {
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    font-family: 'LeckerliOne', cursive;
+}
